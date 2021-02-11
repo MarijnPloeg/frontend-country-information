@@ -11,8 +11,8 @@ Stappenplan:
 [X] ID's aan dynamische elementen toevoegen om functionaliteit toe te voegen
 
 ## CSS
-[ ] Statische element stylen om het voorbeeld te recreeren
-[ ] Lettertype uitkiezen en toewijzen aan de betreffende texten
+[x] Statische element stylen om het voorbeeld te recreeren
+[x] Lettertype uitkiezen en toewijzen aan de betreffende texten
 
 ## JavaScript
 [ ] Informatie uit de API ophalen

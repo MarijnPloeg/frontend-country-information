@@ -9,7 +9,7 @@ met zijn wereldse kennis op borrels en verjaardagen.
 ![screenshot](./assets/screenshot.png)
 
 Je gaat dit doen met behulp van de REST Counties API. De documentatie over de verschillende endpoints
-kun je [hier](https://restcountries.eu/#api-endpoints-language) vinden. 
+kun je [hier](a) vinden. 
 
 ## Voor je begint
 1. Koppel jouw JavaScript bestand met de HTML pagina. Doe dit ook voor het CSS bestand.
