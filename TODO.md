@@ -15,7 +15,7 @@ Stappenplan:
 [x] Lettertype uitkiezen en toewijzen aan de betreffende texten
 
 ## JavaScript
-[ ] Informatie uit de API ophalen
+[X] Informatie uit de API ophalen
 [ ] Event listener op de search knop
 [ ] Input opslaan die uit de input komt
 [ ] Data fetchen uit API op basis van input

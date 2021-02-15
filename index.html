@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <title>Country facts!</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
-    <h1>Let's search some country information!</h1>
+    <h1 class="pageTitle">Let's search some country information!</h1>
     <img src="assets/Globe.svg" alt="Picture of a globe" class="heroImage">
     <div class="searchContainer">
-        <input type="text" id="userInput">
+        <input type="text" id="userInput" placeholder="Enter a country">
         <button id="searchButton">Search</button>
     </div>
-    <article class="countryContainer">
-        a
+    <article id="countryContainer">
+        <img src="" alt="" id="countryFlag">
+        <h1 id="countryHeader"></h1>
+        <p id="countryInfo"></p>
     </article>
-<script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

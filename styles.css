@@ -4,7 +4,7 @@ body {
     background-color: rgb(255,255,245);
 }
 
-h1 {
+.pageTitle {
     text-align: center;
     padding: 30px 0;
     font-family: "Avenir Next", sans-serif, Serif;
@@ -43,11 +43,32 @@ button {
 }
 
 article {
-    background-color: black;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
     margin-top: 2.5%;
     height: 250px;
     font-family: "Avenir Next", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "img h1"
+                         "p  p";
+
+}
+
+h1 {
+    grid-area: h1;
+}
+
+img {
+    grid-area: img;
+    width: 75%;
+    height: auto;
+}
+
+p {
+    font-size: 14px;
+    grid-area: p;
+    line-height: 2;
 }
