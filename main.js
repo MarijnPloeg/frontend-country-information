@@ -79,10 +79,10 @@ function createElements (country) {
 
 function handleErrors (err) {
     if (err.response) {
-        console.log("Problem With Response ", err.response.status);
+        countryHeader.innerHTML = "<span style='color: red;'>Please enter a valid country!</span>";
     } else if (err.request) {
-        console.log("Problem With Request!");
+        countryHeader.innerHTML = "<span style='color: red;'>There is a problem with the internet connection, try again later</span>";
     } else {
-        console.log('Error', err.message);
+        countryHeader.innerHTML = "<span style='color: red;'>There is an unkown error, please contact our support team</span>";
     }
 }
